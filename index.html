@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Motor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #111;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0d47a1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #1565c0;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    .content h2 {
+      color: #0d47a1;
+      margin-bottom: 1rem;
+    }
+    .intro {
+      background-color: #f5f5f5;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .button-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card-button {
+      background-color: #e0e0e0;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 280px;
+      text-decoration: none;
+      color: #111;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+    .card-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .card-button img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      margin-left: auto;
+      border-radius: 5px;
+    }
+    .card-button span {
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mundo Motor</h1>
+    <p>Tu fuente confiable sobre el mundo automotor</p>
+  </header>
+
+  <nav>
+    <a href="mantenimiento.html">Mantenimiento</a>
+    <a href="guia.html">Guía de Compra</a>
+    <a href="comparativas.html">Comparativas</a>
+    <a href="curiosidades.html">Curiosidades</a>
+    <a href="ecologicos.html">Vehículos Ecológicos</a>
+    <a href="marcas.html">Marcas Recomendadas</a>
+    <a href="modelos.html">Modelos</a>
+    <a href="seguridad.html">Seguridad y Prevención</a>
+    <a href="tecnologia.html">Nuevas Tecnologías</a>
+    <a href="evita.html">Autos que No Debes Comprar</a>
+    <a href="historia.html">Historia del Automóvil</a>
+    <a href="motores.html">Tipos de Motores</a>
+    <a href="deportivos.html">Autos Deportivos</a>
+    <a href="suv.html">SUVs y Familiares</a>
+    <a href="economicos.html">Autos Económicos</a>
+  </nav>
+
+  <div class="content">
+    <div class="intro">
+      <h2>Bienvenido a Mundo Motor</h2>
+      <p>Explora nuestras secciones especializadas para aprender, comparar y tomar decisiones informadas sobre el mundo automotriz.</p>
+      <div class="button-grid">
+        <a class="card-button" href="mantenimiento.html">
+          <span>Mantenimiento</span>
+          <img src="001.jpg" alt="Mantenimiento">
+        </a>
+        <a class="card-button" href="guia.html">
+          <span>Guía de Compra</span>
+          <img src="011.jpg" alt="Guía de Compra">
+        </a>
+        <a class="card-button" href="comparativas.html">
+          <span>Comparativas</span>
+          <img src="031.jpg" alt="Comparativas">
+        </a>
+        <a class="card-button" href="curiosidades.html">
+          <span>Curiosidades</span>
+          <img src="021.jpg" alt="Curiosidades">
+        </a>
+        <a class="card-button" href="ecologicos.html">
+          <span>Vehículos Ecológicos</span>
+          <img src="041.jpg" alt="Vehículos Ecológicos">
+        </a>
+        <a class="card-button" href="marcas.html">
+          <span>Marcas Recomendadas</span>
+          <img src="051.jpg" alt="Marcas Recomendadas">
+        </a>
+        <a class="card-button" href="modelos.html">
+          <span>Modelos</span>
+          <img src="061.jpg" alt="Modelos">
+        </a>
+        <a class="card-button" href="seguridad.html">
+          <span>Seguridad y Prevención</span>
+          <img src="071.jpg" alt="Seguridad y Prevención">
+        </a>
+        <a class="card-button" href="tecnologia.html">
+          <span>Nuevas Tecnologías</span>
+          <img src="081.jpg" alt="Nuevas Tecnologías">
+        </a>
+        <a class="card-button" href="evita.html">
+          <span>Autos que No Debes Comprar</span>
+          <img src="091.jpg" alt="No comprar">
+        </a>
+        <a class="card-button" href="historia.html">
+          <span>Historia del Automóvil</span>
+          <img src="101.jpg" alt="Historia">
+        </a>
+        <a class="card-button" href="motores.html">
+          <span>Tipos de Motores</span>
+          <img src="201.jpg" alt="Motores">
+        </a>
+        <a class="card-button" href="deportivos.html">
+          <span>Autos Deportivos</span>
+          <img src="301.jpg" alt="Deportivos">
+        </a>
+        <a class="card-button" href="suv.html">
+          <span>SUVs y Familiares</span>
+          <img src="401.jpg" alt="Familiares">
+        </a>
+        <a class="card-button" href="economicos.html">
+          <span>Autos Económicos</span>
+          <img src="501.jpg" alt="Económicos">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mundo Motor - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

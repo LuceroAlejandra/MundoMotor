@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tipos de Motores - Mundo Motor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    nav {
+      background: #0d47a1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0.5rem 1rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1 {
+      color: #0d47a1;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .section {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      align-items: center;
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section img {
+      width: 300px;
+      border-radius: 8px;
+    }
+    .section p {
+      flex: 1;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .btn-regresar {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto 0;
+      padding: 0.8rem 1.6rem;
+      background-color: #0d47a1;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+      .section img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mundo Motor</h1>
+    <p>Tu fuente confiable sobre el mundo automotor</p>
+  </header>
+  <nav>
+    <a href="#">Mantenimiento</a>
+    <a href="#">Guía de Compra</a>
+    <a href="#">Comparativas</a>
+    <a href="#">Curiosidades</a>
+    <a href="#">Vehículos Ecológicos</a>
+    <a href="#">Marcas Recomendadas</a>
+    <a href="#">Modelos</a>
+    <a href="#">Seguridad y Prevención</a>
+    <a href="#">Nuevas Tecnologías</a>
+    <a href="#">Autos que No Debes Comprar</a>
+    <a href="#">Historia del Automóvil</a>
+    <a href="#">Tipos de Motores</a>
+    <a href="#">Autos Deportivos</a>
+    <a href="#">SUVs y Familiares</a>
+    <a href="#">Autos Económicos</a>
+  </nav>
+
+  <div class="container">
+    <h1>Tipos de Motores</h1>
+
+    <div class="section">
+      <img src="202.jpg" alt="Motor de gasolina">
+      <p><strong>Motor de gasolina:</strong> El más común, utiliza gasolina como combustible y se caracteriza por su buen rendimiento y potencia. Es ideal para autos ligeros y de uso urbano.</p>
+    </div>
+
+    <div class="section">
+      <img src="203.jpg" alt="Motor diésel">
+      <p><strong>Motor diésel:</strong> Eficiente en consumo y con mayor torque, se usa principalmente en vehículos de carga y autos que recorren largas distancias. Requiere mantenimiento específico.</p>
+    </div>
+
+    <div class="section">
+      <img src="204.jpg" alt="Motor eléctrico">
+      <p><strong>Motor eléctrico:</strong> Utiliza energía eléctrica almacenada en baterías. Es silencioso, ecológico y con menor mantenimiento, ganando terreno en la movilidad sostenible.</p>
+    </div>
+
+    <div class="section">
+      <img src="205.jpg" alt="Motor híbrido">
+      <p><strong>Motor híbrido:</strong> Combina un motor de combustión con uno eléctrico, optimizando el consumo de combustible y reduciendo las emisiones contaminantes.</p>
+    </div>
+
+    <a href="index.html" class="btn-regresar">← Volver a la página principal</a>
+  </div>
+</body>
+</html>
